@@ -31,7 +31,7 @@ function compute()
     principal = principalTag.value
     if ( principal==='' )
     {
-        alert( 'Please specify an amount' )
+        alert( 'Enter a positive number' )
         return
     } else if ( principal<=0 ) {
         
