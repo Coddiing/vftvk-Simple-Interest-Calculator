@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', event => {
      computedDiv = query( 'result' ) 
      computedDiv.style.display = 'none' // Hide text initially
 
-     gRate = 3.5 // initial value of range
+     gRate = 10.25 // initial value of range
      
      currentYear = new Date().getFullYear()
      year = query( 'year-text' ) 
